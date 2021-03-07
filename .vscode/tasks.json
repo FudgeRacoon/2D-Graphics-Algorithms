@@ -1,0 +1,35 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Build",
+			"command": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+			"args": [
+				"-g",
+				"${workspaceFolder}/src/dda_line.cpp",
+				"-o",
+				"${workspaceFolder}/build/App.exe",
+				"-IC:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/include",
+                "-LC:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib",
+                "-lmingw32",
+                "-lSDL2main",
+                "-lSDL2_ttf",
+                "-lSDL2_image",
+                "-lSDL2_mixer",
+                "-lSDL2"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Compile c++ files"
+		}
+	]
+}

@@ -183,9 +183,3 @@ class SDLInit
 	
 	
 };
-
-int main()
-{
-  SDLInit::Init(); 
-  return ( 0 ) ;
-}

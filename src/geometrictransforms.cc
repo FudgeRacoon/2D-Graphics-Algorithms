@@ -360,9 +360,3 @@ class SDLInit
 };
 
 Point Start::P[4] = {{120,240}, {220,240} , {170,170}, {120,240}};
-
-int main()
-{
-   SDLInit::Init(); 
-   return ( 0 ) ;
-}
